@@ -14,7 +14,9 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <!-- bootstrap css -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  <!-- style css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- style css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Responsive-->
   <link rel="stylesheet" href="css/responsive.css">
@@ -65,7 +67,7 @@
                     <a class="nav-link" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">Sobre nosotros</a>
+                    <a class="nav-link" href="#service">Sobre nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Galeria</a>
@@ -88,12 +90,13 @@
   <section class="custom-carousel">
     <div id="carouselVideoExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
       <!-- Indicators -->
-  
+
       <!-- Inner -->
       <div class="carousel-inner">
         <!-- Single item -->
         <div class="carousel-item active">
-          <video class="img-fluid w-100" autoplay loop muted>
+          <video class="img-fluid w-100" autoplay="autoplay" loop="loop" muted defaultMuted playsinline
+            oncontextmenu="return false;" preload="auto">
             <source src="images/video.mp4" type="video/mp4" />
           </video>
           <div class="carousel-caption d-none d-md-block">
@@ -103,31 +106,25 @@
             </p>
           </div>
         </div>
-
-    </div>
+      </div>
   </section>
 
   <section class="initial-section">
 
-    
-    <div class="row mb-5 mt-5">
-      <div class="col-md-7 d-flex align-items-center">
+
+    <div class="row mt-5">
+      <div class="col-md-7 d-flex align-items-center service_box">
         <p class="text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum, delectus aspernatur qui
-          assumenda tempora odio sit? Eum quis tempora error, aliquid cupiditate asperiores voluptates enim,
-          culpa nesciunt voluptate tenetur?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eos enim inventore error dolores nam
-          nostrum aspernatur. Assumenda ipsam beatae illo, velit repellat quos doloremque tenetur ab sapiente
-          sed. Explicabo!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deserunt aspernatur a
-          asperiores incidunt earum quaerat architecto ipsa. Id sunt non adipisci modi similique aliquam at
-          hic quod consequuntur quibusdam.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam et beatae, itaque sed atque
-          neque. Aliquid dicta dolore veniam nostrum tempore placeat similique maiores beatae incidunt.
-          Eveniet voluptatum animi facilis!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laborum, voluptas culpa asperiores
-          sit enim sint maiores est tempora eligendi? Eos nulla quod consequatur. Enim commodi sapiente eaque
-          numquam quae.
+          Hacienda monterey es nuestro nuevo proyecto en la ciudad de pereira de lotes campestres con lotes entre 1200 hasta 3000 metros cuadrados
+          en la zona rural de morelia vereda el estanquillo. nuestra hacienda tiene multiples entradas; ya sea por la via condina, por altagracia, o por morelia.
+          Lotes en su mayoria planos perfectos para construccion. estos lotes cuentan con punto de energia, punto de tuberias de agua y punto de tuberias de gas domiciliario,
+          ademas de que el terreno se encuentra en perfecto estado facilitando permisos de construccion.
+          <br><br>
+          La entrada a la hacienda cuenta con portada electrica, cada propietario recibira su respectivo control y metodo de acceso adicional, las vias dentro de la hacienda se
+          encuentran pavimentadas y en perfecto estado, tambien contamos con alumbrado de las vias con lamparas solares. Gracias a nuestros metodos autosostenibles no tenemos la necesidad
+          de una administracion, por lo que no somos un condominio ni cobramos mensualidad de ningun tipo.
+          <br><br>
+          el costo de estos lotes sin importar el tamaño es de 195 millones de pesos colombianos. para mas informacion puedes ver nuestras opciones de <a href="contact.html" class="contact-link">contacto</a>
         </p>
       </div>
       <div class="col-md-5 text-center">
@@ -137,67 +134,84 @@
     <!-- Carousel wrapper -->
     <!-- Carousel wrapper -->
   </section>
-  
+
   <!-- end about -->
   <!--  service -->
-  <div id="service" class="service">
+  <div id="service" class="service mb-5">
     <div class="container">
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-md-12">
           <div class="titlepage">
-            <h2>Our <span class="green">Services</span></h2>
+            <h2><span class="">Nuestros lotes cuentan con</span></h2>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-10 offset-md-1">
+        <div class="col-md-12 text-center">
           <div class="row">
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-12">
               <div class="service_box">
                 <i><img src="images/service1.png" alt="#" /></i>
-                <h3>Retina Ready</h3>
-                <p>many variations of passages <br>of Lorem Ipsum available,</p>
+                <h3>Punto de energia</h3>
+                <p>se hace entrega de un punto de <br> electricidad aprobado por la empresa <br> de energia de pereira
+                </p>
               </div>
             </div>
-            <div class="col-md-4 offset-md-1 col-sm-6">
+            <div class="col-md-4 offset-md-1 col-sm-12">
               <div class="service_box">
                 <i><img src="images/service2.png" alt="#" /></i>
-                <h3>Creative Elements</h3>
-                <p>many variations of passages <br>of Lorem Ipsum available,</p>
+                <h3>Gas domiciliario</h3>
+                <p>se entrega con punto de gas natural <br> por tuberia gestionado con la empresa <br>de gas de pereira
+                </p>
               </div>
             </div>
-            <div class="col-md-4 offset-md-3 col-sm-6 mar_top">
+            <div class="col-md-4 agua col-sm-12 mar_top">
               <div class="service_box">
                 <i><img src="images/service3.png" alt="#" /></i>
-                <h3>Easy-to-Use</h3>
-                <p>many variations of passages <br>of Lorem Ipsum available,</p>
+                <h3>Servicio de acueducto</h3>
+                <p>se entrega con su punto de tuberias <br> para agua domicliaria</p>
               </div>
             </div>
-            <div class="col-md-4 offset-md-1 col-sm-6 mar_top">
+            <div class="col-md-4 plus col-sm-12 mar_top">
               <div class="service_box">
                 <i><img src="images/service4.png" alt="#" /></i>
-                <h3>Easy Import</h3>
-                <p>many variations of passages <br>of Lorem Ipsum available,</p>
+                <h3>Adicionales...</h3>
+                <p>vias pavimentadas, alumbrado con energia <br> solar, portada electrica para <br> la hacienda</p>
               </div>
             </div>
-            <div class="col-md-12">
+            <!-- <div class="col-md-12">
               <a class="read_more" href="Javascript:void(0)"> Read More</a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- end service -->
+  <div class="row initial-section our-text service_box">
+    <p class="col-md-6 col-sm-12">
+      Reservamos los lotes con el 30% de su valor y si puede dar un plazo de hasta 6 meses para su pago. en caso de tener alguna oferta de pago como 
+      recibir otra propiedad, vehiculo o prenda se podria estudiar la posibilidad. cualquier tipo de duda puede ser resuelta con nuestros diferentes 
+      metodos de <a href="contact.html" class="contact-link">contacto</a>.
+      <br><br>
+      Contamos con equipo de abogados, arquitectos y especialistas. ademas de esto contamos
+      con proyectos anteriores que nos respaldan como proyecto de finca raiz, estamos abiertos a cualquier visita para que pueda conocer nuestra hacienda y pueda elegir
+      el lote en que va a construir su futuro y tranquilidad.
+    </p>
+    <p class="col-md-6 col-sm-12">
+      Morelia es un corregimiento de la ciudad de Pereira, Risaralda, Colombia, ubicado a unos 20 kilómetros al suroeste del centro de Pereira. El corregimiento se encuentra rodeado de naturaleza, con bosques, montañas, ríos y cascadas.
+      <br><br>
+      La belleza de Morelia se destaca por sus paisajes naturales, que ofrecen una variedad de colores y texturas. Los bosques de Morelia son verdes y exuberantes, las montañas son imponentes y majestuosas, y los ríos y cascadas son cristalinos y refrescantes.
+      El clima de Morelia es templado y húmedo, con una temperatura promedio de 22 grados Celsius. Este clima es ideal para la agricultura, ya que permite que las tierras sean muy fértiles.
+    </p>
+  </div>
   <!-- gallery -->
   <div id="gallery" class="gallery">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="titlepage">
-            <h2>Our <span class="green">gallery</span></h2>
-            <p>here are many variations of passages of Lorem Ipsum available, but the majority have suffer
-            </p>
+            <h2>Algunas <span class="green">imagenes</span></h2>
           </div>
         </div>
       </div>
@@ -205,43 +219,42 @@
         <div class="col-md-4 col-sm-6">
           <div class="gallery_text">
             <div class="galleryh3">
-              <h3>Interior Design</h3>
-              <p>of passages of Lorem <br>
-                Ipsum available <br>
-                , but the majority <br>
-                have suffer
+              <h3>Clima agradable</h3>
+              <p>Tenemos el calorcito del <br>
+                valle ya que nos encontramos <br>
+                cerca de alcala.<br>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="gallery_img">
-            <figure><img src="images/gallery1.jpg" alt="#" /></figure>
+            <figure><img src="images/finca1.jpg" alt="#" /></figure>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="gallery_img">
-            <figure><img src="images/gallery2.jpg" alt="#" /></figure>
+            <figure><img src="images/finca2.jpg" alt="#" /></figure>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="gallery_img">
-            <figure><img src="images/gallery3.jpg" alt="#" /></figure>
+            <figure><img src="images/finca3.jpg" alt="#" /></figure>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="gallery_img">
-            <figure><img src="images/gallery4.jpg" alt="#" /></figure>
+            <figure><img src="images/finca6.jpg" alt="#" /></figure>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="gallery_text">
             <div class="galleryh3">
-              <h3>Interior Design</h3>
-              <p>of passages of Lorem <br>
-                Ipsum available <br>
-                , but the majority <br>
-                have suffer
+              <h3>Cerca a la ciudad</h3>
+              <p>Nuestra hacienda se encuentra <br>
+                A 10 minutos de la iglesia de morelia, <br>
+                15 minutos de altagracia y 10 minutos  <br>
+                de la via condina.
               </p>
             </div>
           </div>
@@ -249,279 +262,23 @@
         <div class="col-md-4 col-sm-6">
           <div class="gallery_text">
             <div class="galleryh3">
-              <h3>Interior Design</h3>
-              <p>of passages of Lorem <br>
-                Ipsum available <br>
-                , but the majority <br>
-                have suffer
+              <h3>Sin pago por administracion</h3>
+              <p>No somos un condominio, <br>
+                no se hace pago de administracion. <br>
+                cada propietario tiene control <br>
+                de acceso.
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="gallery_img">
-            <figure><img src="images/gallery5.jpg" alt="#" /></figure>
+            <figure><img src="images/finca4.jpg" alt="#" /></figure>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="gallery_img">
-            <figure><img src="images/gallery6.jpg" alt="#" /></figure>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end gallery -->
-  <!-- design -->
-  <div class="design">
-    <div class="container-fluid">
-      <div class="row d_flex">
-        <div class="col-md-5">
-          <div id="design" class="carousel slide banner_design" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#design" data-slide-to="0" class="active"></li>
-              <li data-target="#design" data-slide-to="1"></li>
-              <li data-target="#design" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="container">
-                  <div class="carousel-caption relative">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="text_de">
-                          <div class="titlepage">
-                            <h2>New Ideas <span class="green">Design</span></h2>
-                          </div>
-                          <p>There are many variations of passages of Lorem Ipsum available,
-                            but theThere are many variations of passages of Lorem Ipsum
-                            available, but the</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container">
-                  <div class="carousel-caption relative">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="text_de">
-                          <div class="titlepage">
-                            <h2>New Ideas <span class="green">Design</span></h2>
-                          </div>
-                          <p>There are many variations of passages of Lorem Ipsum available,
-                            but theThere are many variations of passages of Lorem Ipsum
-                            available, but the</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container">
-                  <div class="carousel-caption relative">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="text_de">
-                          <div class="titlepage">
-                            <h2>New Ideas <span class="green">Design</span></h2>
-                          </div>
-                          <p>There are many variations of passages of Lorem Ipsum available,
-                            but theThere are many variations of passages of Lorem Ipsum
-                            available, but the</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#design" role="button" data-slide="prev">
-              <i class="fa fa-angle-left" aria-hidden="true"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#design" role="button" data-slide="next">
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-7 pad_roght0">
-          <div class="design_img">
-            <figure><img src="images/desi.jpg" alt="#" /></figure>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end design -->
-  <!-- latest news -->
-  <div class="latest_news">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="titlepage">
-            <h2>Read Our <span class="green">Latest News</span></h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 offset-md-2">
-          <div id="new" class="news_box">
-            <div class="news_img">
-              <figure><img src="images/blog1.jpg" alt="#" /></figure>
-            </div>
-            <div class="news_room">
-              <span>Post By :limelight</span>
-              <ul>
-                <li><a href="Javascript:void(0)">Like <i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-                <li><a href="Javascript:void(0)">Comment <i class="fa fa-comments-o" aria-hidden="true"></i></a></li>
-                <li><a href="Javascript:void(0)">Share <i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
-              </ul>
-              <h3>Interior Design</h3>
-              <p>It is a long established fact that a reader will be distracted by the readable content
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 ">
-          <div id="new" class="news_box">
-            <div class="news_img mr_le">
-              <figure><img src="images/blog1.jpg" alt="#" /></figure>
-            </div>
-            <div class="news_room">
-              <span>Post By :limelight</span>
-              <ul>
-                <li><a href="Javascript:void(0)">Like <i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-                <li><a href="Javascript:void(0)">Comment <i class="fa fa-comments-o" aria-hidden="true"></i></a></li>
-                <li><a href="Javascript:void(0)">Share <i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
-              </ul>
-              <h3>Artictecture</h3>
-              <p>It is a long established fact that a reader will be distracted by the readable content
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <a class="read_more" href="Javascript:void(0)"> Read More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end latest news -->
-  <!-- testimonial -->
-  <div id="testimonial" class="Testimonial">
-    <div class="container-fluid">
-      <div class="row d_flex">
-        <div class="col-md-8 pad_left0">
-          <div id="testimon" class="carousel slide banner_testimonial" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#testimon" data-slide-to="0" class="active"></li>
-              <li data-target="#testimon" data-slide-to="1"></li>
-              <li data-target="#testimon" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="container">
-                  <div class="carousel-caption relative">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="text_humai">
-                          <i><img src="images/tett1.png" alt="#" /></i>
-                          <span>HumouThere</span>
-                          <p>T suffered alteration in some form, by injected humouThere are
-                            many variations of passages of Lorem Ipsum available, but the
-                            majority have suffered alteration in some form, by injected
-                            humou</p>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="text_humai">
-                          <i><img src="images/tett2.png" alt="#" /></i>
-                          <span>HumouThere</span>
-                          <p>T suffered alteration in some form, by injected humouThere are
-                            many variations of passages of Lorem Ipsum available, but the
-                            majority have suffered alteration in some form, by injected
-                            humou</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container">
-                  <div class="carousel-caption relative">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="text_humai">
-                          <i><img src="images/tett1.png" alt="#" /></i>
-                          <span>HumouThere</span>
-                          <p>T suffered alteration in some form, by injected humouThere are
-                            many variations of passages of Lorem Ipsum available, but the
-                            majority have suffered alteration in some form, by injected
-                            humou</p>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="text_humai">
-                          <i><img src="images/tett2.png" alt="#" /></i>
-                          <span>HumouThere</span>
-                          <p>T suffered alteration in some form, by injected humouThere are
-                            many variations of passages of Lorem Ipsum available, but the
-                            majority have suffered alteration in some form, by injected
-                            humou</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container">
-                  <div class="carousel-caption relative">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="text_humai">
-                          <i><img src="images/tett1.png" alt="#" /></i>
-                          <span>HumouThere</span>
-                          <p>T suffered alteration in some form, by injected humouThere are
-                            many variations of passages of Lorem Ipsum available, but the
-                            majority have suffered alteration in some form, by injected
-                            humou</p>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="text_humai">
-                          <i><img src="images/tett2.png" alt="#" /></i>
-                          <span>HumouThere</span>
-                          <p>T suffered alteration in some form, by injected humouThere are
-                            many variations of passages of Lorem Ipsum available, but the
-                            majority have suffered alteration in some form, by injected
-                            humou</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#testimon" role="button" data-slide="prev">
-              <i class="fa fa-angle-left" aria-hidden="true"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#testimon" role="button" data-slide="next">
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4 ">
-          <div class="titlepage">
-            <h2>Testimonial</h2>
+            <figure><img src="images/finca5.jpg" alt="#" /></figure>
           </div>
         </div>
       </div>
@@ -534,37 +291,28 @@
       <div class="row">
         <div class="col-md-12">
           <div class="titlepage">
-            <h2>Contact Us</h2>
+            <h2>Contactanos</h2>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
-          <form id="request" class="main_form">
-            <div class="row">
-              <div class="col-md-12 ">
-                <input class="contactus" placeholder="Name" type="type" name="Name">
-              </div>
-              <div class="col-md-12">
-                <input class="contactus" placeholder="Email" type="type" name="Email">
-              </div>
-              <div class="col-md-12">
-                <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
-              </div>
-              <div class="col-md-12">
-                <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
-              </div>
-              <div class="col-md-12">
-                <button class="send_btn">Send</button>
-              </div>
-            </div>
-          </form>
+        <div class="col-md-6 contacto mb-5">
+          <p><span>Celular:</span> +57 3122007598</p>
+          <p><span>Celular:</span> +57 3126851068</p>
+          <p><span>Celular:</span> +57 3113595098</p>
+          <br>
+          <p><span>Correo:</span> asesoriassuarez1965@gmail.com</p>
+          <p><span>Correo:</span> suarezjuanmanuel0861@gmail.com</p>
+          <br>
+          <h2 class="mb-2">Nuestras oficinas</h2>
+          <p><span>Oficina principal:</span> parque bolivar</p>
+          <p><span>Oficina:</span> plaza bolivar</p>
         </div>
         <div class="col-md-6">
           <div class="map_main">
             <div class="map-responsive">
               <iframe
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.927737089995!2d-75.74579191361755!3d4.736853710561497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38632f9a56ea6f%3A0x52333bf1e78d8acc!2sHacienda%20Monterey!5e0!3m2!1ses!2sco!4v1702845252960!5m2!1ses!2sco" 
                 width="600" height="345" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
             </div>
           </div>
@@ -574,79 +322,11 @@
   </div>
   <!-- end contact -->
   <!--  footer -->
-  <footer>
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class=" col-md-3 col-sm-6">
-            <ul class="social_icon">
-              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
-            <p class="variat pad_roght2">There are many variat
-              ions of passages of L
-              orem Ipsum available
-              , but the majority h
-              ave suffered altera
-              tion in some form, by
-            </p>
-          </div>
-          <div class=" col-md-3 col-sm-6">
-            <h3>LET US HELP YOU </h3>
-            <p class="variat pad_roght2">There are many variat
-              ions of passages of L
-              orem Ipsum available
-              , but the majority h
-              ave suffered altera
-              tion in some form, by
-            </p>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <h3>INFORMATION</h3>
-            <ul class="link_menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html"> About</a></li>
-              <li><a href="service.html">Services</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="testimonial.html">Testimonial</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <h3>OUR Design</h3>
-            <p class="variat">There are many variat
-              ions of passages of L
-              orem Ipsum available
-              , but the majority h
-              ave suffered altera
-              tion in some form, by
-            </p>
-          </div>
-          <div class="col-md-6 offset-md-6">
-            <form id="hkh" class="bottom_form">
-              <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
-              <button class="sub_btn">subscribe</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 offset-md-1">
-              <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html
-                  Templates</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
   <!-- end footer -->
   <!-- Javascript files-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery-3.0.0.min.js"></script>
