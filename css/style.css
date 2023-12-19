@@ -50,16 +50,6 @@ body {
   font-weight: normal;
 }
 
-a {
-  color: #1f1f1f;
-  text-decoration: none !important;
-  outline: none !important;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
 
 h1,
 h2,
@@ -511,7 +501,7 @@ button {
 /** service section **/
 
 .service {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .service_box h3 {
@@ -523,7 +513,7 @@ button {
 }
 
 .mar_top {
-  margin-top: -35px;
+  margin-top: -15px;
 }
 
 .service_box p {
@@ -534,6 +524,11 @@ button {
   margin: 0 auto;
   display: block;
   margin-top: 60px;
+}
+
+.service_box img{
+  max-width: 91px;
+  max-height: 91px;
 }
 
 
@@ -581,7 +576,7 @@ button {
 .gallery_text {
   text-align: center;
   background-color: #2a2b2a;
-  height: 369px;
+  height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -894,6 +889,7 @@ button {
   background-position: center;
   margin-top: 90px;
   padding: 80px 0;
+  height: 128vh;
 }
 
 .contact .titlepage {
@@ -968,6 +964,7 @@ button {
   background: #202020;
   padding-top: 80px;
   text-align: center;
+  height: 128vh;
 }
 
 .footer h3 {
@@ -1178,9 +1175,43 @@ hr{
 }
 
 #carouselVideoExample {
-  max-height: 81vh;
+  max-height: 80vh;
   overflow: hidden;
   padding-top: 0px;
   width: 100%;
 }
 
+/* Selecciona el elemento al que se aplica offset-md-2 y ajusta su margen izquierdo */
+@media (min-width: 767px) {
+  .agua{
+    margin-left: 22%;
+  }
+  
+  .plus {
+    margin-left: 11% ;
+  }
+}
+
+.our-text {
+  margin: 7vh 0 7vh 0;
+}
+
+.contacto {
+  color: #fff;
+  font-weight: bold;
+}
+
+.contacto h2{
+  color: #fff;
+  font-weight: bold;
+}
+
+.contacto span{
+  color: #fff;
+  font-size: large;
+}
+
+.contact-link{
+  color: #1270b3;
+  text-decoration: underline #1270b3 !important;
+}
